@@ -5,6 +5,9 @@ class Db {
 
     private $connection;
 
+    /**
+     * Upon instantiation creates a connection to the DB and is stored as a class property for access elsewhere in the class
+     */
     function __construct() {
         $this->connection = mysqli_connect("localhost","lumina","lumina","lumina");
         if (mysqli_connect_errno()) {
