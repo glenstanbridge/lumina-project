@@ -1,0 +1,16 @@
+{
+  "name": "lumina",
+  "version": "1.0.0",
+  "description": "Lumina",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glen Stanbridge",
+  "license": "ISC"
+}

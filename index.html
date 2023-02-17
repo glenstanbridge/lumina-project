@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Glen Stanbridge Lumina Quiz Assessment</title>
+  <link href="app/theme/dist/css/style.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="app/theme/dist/js/app.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <h1>Glen Stanbridge Lumina Technical Assesment</h1>
+    <form class="questions">
+    </form>
+    <form class="save-score">
+      <div class="question">
+        <div class="question__container">
+          <h2>You scored : <span class="score"></span></h2>
+          <p>Add a username to record your score, see the average score and who leads this quiz on the leaderboard.</p>
+          <input type="text" name="username" placeholder="Add your username here" />
+          <button class="submit-username">Submit</button>
+        </div>
+      </div>
+      <div class="question">
+        <div class="question__container">
+          <h2>Thank you!</h2>
+          <p>Take a look at the current leader board.</p>
+          <table class="leaderboard">
+            <thead>
+              <tr>
+                <th>Username</td>
+                <th>Score</td>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Average of all scores</td>
+                <td></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </form>
+</body>
+</html>
